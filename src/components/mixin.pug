@@ -1,0 +1,20 @@
+mixin createMenu(menu, active)
+    each value, key in menu
+        if active == key
+            a.active(href= value)= key
+        else
+            a(href= value)= key
+
+mixin createMenuBuild(menu, active)
+    each value, key in menu
+        if key === 'Небоскребы'
+            a.active(href= value)= active
+        else
+            a(href= value)= key
+
+mixin createSection(title, image, text)
+    section
+        h3= title
+        img(src= require("../images/" + image))
+        p= text
+            a(href="#") &hellip;
