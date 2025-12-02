@@ -1,5 +1,3 @@
-> Дешевые серверы в Германии для доступного интернета - [https://koara.cloud/](https://koara.cloud/)
-
 ---
 
 # Шаблонизатор Pug и препоцессор Stylus на Webpack
@@ -27,3 +25,4 @@ npm run serve
 ```
 
 Страница откроется по адресу [http://localhost:9000](http://localhost:9000)
+
