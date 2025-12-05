@@ -4,7 +4,17 @@ back(size)
     padding: size + "%"
     margin 0 0 1% 0
 
+
+setColor(color1, color2)
+    td:nth-child(odd)
+        background color1
+    td:nth-child(even)
+        background color2
+
 colorText = #6f6d6d
+
+table
+    setColor(#dddddd, #eeeeee)
 
 html
     color colorText
